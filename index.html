@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <title>Portfólio | Wildinei Dias</title>
+</head>
+<body>
+    
+    <header class="navegacao">
+        <picture class="nav-logo">
+            <img class="logo" src="src/img/logo.png" alt="Logo">
+        </picture>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <div class="btn-desktop">
+                    <img class="lampada" src="src/img/luz-claro.png" alt="">
+                </div>
+             </ul>
+        </nav>
+        <div class="botao-mobile">
+            <img src="src/img/botao-mobile.png" alt="">
+        </div>
+    </header>
+    <main class="container">
+        <section class="conteudo scroll" id="inicio">    
+            <div class="principal">
+                <h3>Olá, eu sou</h3>
+                <h1 class="dias"></h1>
+                <h3>Desenvolvedor Front-end.</h3>
+                <div>
+                    <a href="https://www.linkedin.com/in/wildinei-dias-4398a8261/" target="_blank"><img src="src/img/linkedin.png" onmouseover="this.src='src/img/linkedin-mouse.gif'" onmouseout="this.src='src/img/linkedin.png'" alt="Botão Linkedin"></a>
+                    <a href="https://github.com/Wildinei" target="_blank"><img src="src/img/github.png" onmouseover="this.src='src/img/github-mouse.gif'" onmouseout="this.src='src/img/github.png'" alt="Botão GitHub"></a>
+                </div>
+            </div>
+            <div class="imagem">
+                <div class="img"></div>
+            </div>
+        </section>
+        <section class="sobre-mim scroll" id="sobre-mim">
+            <picture class="perfil-logo">
+                <img src="src/img/sobremim.png" alt="">
+            </picture>
+            <div class="biografia">
+                <h1>Sobre mim</h1>
+                <p>Meu nome é Wildinei Dias dos Santos e sou apaixonado por tecnologia. Desde muito tempo sempre acompanhando o desenvolver da tecnologia, mas só comecei a dar o devido foco em 2023 quando meus amigos diziam que eu deveria trabalhar na área e como nada é tarde nessa vida aqui estou eu, focando em uma área que sempre admirei e sou um grande fã da tecnologia.</p>
+                <p>Cada dia que se passa aprendendo cada vez mais e esse é meu novo objetivo, crescer e sempre aprender coisas novas, hoje estou me desenvolvendo na área Front-end desenvolvimento de WEB e em breve Back-end.</p>
+            </div>
+        </section>
+        <section class="projetos scroll" id="projetos">
+            <h1>Projetos</h1>
+            <div class="card">
+                <div>
+                    <h3>Apex legends</h3>
+                    <img src="src/img/capa-apex.png" alt="Capa Apex legends">
+                    <a href="https://wildinei.github.io/apex-legends/" target="_blank">Visualizar</a>
+                    <a href="https://github.com/Wildinei/apex-legends" target="_blank">Ver Projeto</a>
+                </div>
+                <div>
+                    <h3>Em Breve</h3>
+                    <div class="carregando"></div>
+                    <img src="src/img/capa-carregando.png" alt="Capa carregando">
+                    <a href="#">Visualizar</a>
+                    <a href="#">Ver Projeto</a>
+                </div>
+                <div>
+                    <h3>Em Breve</h3>
+                    <div class="carregando"></div>
+                    <img src="src/img/capa-carregando.png" alt="Capa carregando">
+                    <a href="#">Visualizar</a>
+                    <a href="#">Ver Projeto</a>
+                </div>
+                <div>
+                    <h3>Em Breve</h3>
+                    <div class="carregando"></div>
+                    <img src="src/img/capa-carregando.png" alt="Capa carregando">
+                    <a href="#">Visualizar</a>
+                    <a href="#">Ver Projeto</a>
+                </div>
+                <div>
+                    <h3>Em Breve</h3>
+                    <div class="carregando"></div>
+                    <img src="src/img/capa-carregando.png" alt="Capa carregando">
+                    <a href="#">Visualizar</a>
+                    <a href="#">Ver Projeto</a>
+                </div>
+                <div>
+                    <h3>Em Breve</h3>
+                    <div class="carregando"></div>
+                    <img src="src/img/capa-carregando.png" alt="Capa carregando">
+                    <a href="#">Visualizar</a>
+                    <a href="#">Ver Projeto</a>
+                </div>
+            </div>
+            <p>Repositório do Github.</p>
+        </section>
+        <section class="formacao scroll" id="formacao">
+            <h2>Formação acadêmica</h2>
+            <div class="logo-quest">
+                <img src="src/img/logo-devquest.jpeg" alt="">
+                <p>DevQuest - Dev em Dobro</p>
+            </div>
+            <div class="descricao">
+                <h3>O DevQuest é um treinamento web full stack que te leva do zero até a sua primeira vaga na área de programação.</h3>
+                <h3>**Atualmente estudando**</p>
+            </div>
+            <div class="link">
+                <a class="site" href="https://devemdobro.com/matriculas-abertas/" target="_blank">Site oficial</a>
+                <div>
+                    <a href="https://www.instagram.com/devemdobro/" target="_blank"><img src="src/img/rede-instagram.png" onmouseenter="this.src='src/img/rede-instagram-color.png'" onmouseout="this.src='src/img/rede-instagram.png'" alt="logo do Instagran"></a>
+                    <a href="https://www.linkedin.com/school/devquest-dev-em-dobro/" target="_blank"><img src="src/img/rede-linkedin.png" onmouseenter="this.src='src/img/rede-linkedin-color.png'" onmouseout="this.src='src/img/rede-linkedin.png'" alt="Logo do Linkedin"></a>
+                </div>
+            </div>
+        </section>
+        <section class="habilidades scroll" id="habilidades">
+            <h2>Habilidades</h2>
+            <div>
+                <div class="linguaguem">
+                    <img class="html" src="src/img/logo-html-5.png" alt="imagem Logo HTML 5">
+                    <img class="css" src="src/img/logo-css-3.png" alt="imagem Logo CSS 3">
+                    <img class="javascript"src="src/img/logo-javascript.png" alt="imagem Logo JavaScript">
+                    <img class="github" src="src/img/logo-github.png" alt="imagem Logo github">
+                    <img class="react" src="src/img/logo-react.png" alt="imagem Logo React">
+                </div>
+                <div class="informacao">
+                    <h2>Informações</h2>
+                    <p class="texto">**Passe o mouse por cima de alguma habilidade para ler a descrição**</p>
+                </div>
+            </div>
+        </section>    
+    </main>
+    <footer class="rodape" id="contatos">
+        <div class="logo-rede">
+            <img class="logo" src="src/img/logo.png" alt="Logo">
+            <div class="rede">
+                <a class="linkedin" href="https://www.linkedin.com/in/wildinei-dias-4398a8261/" target="_blank"><img src="src/img/rede-linkedin.png" onmouseenter="this.src='src/img/rede-linkedin-color.png'" onmouseout="this.src='src/img/rede-linkedin.png'" alt="logo linkedin"></a>
+                <a class="github" href="https://github.com/Wildinei" target="_blank"><img src="src/img/rede-github.png" onmouseenter="this.src='src/img/rede-github-color.png'" onmouseout="this.src='src/img/rede-github.png'" alt="logo github" ></a>
+                <a class="instagram" href="https://www.instagram.com/wildinei_dev/" target="_blank"><img src="src/img/rede-instagram.png" onmouseenter="this.src='src/img/rede-instagram-color.png'" onmouseout="this.src='src/img/rede-instagram.png'" alt="logo instagran"></a>
+            </div>
+        </div>
+        <div class="mail">
+            <img src="src/img/rede-mail.png" onmouseenter="this.src='src/img/rede-mail-color.png'" onmouseout="this.src='src/img/rede-mail.png'" alt="Logo do Mail">
+            <p>wildineiandroid@gmail.com</p>
+        </div>
+        
+     </footer>
+
+     </div>
+
+    <script src="src/js/index.js"></script>
+    <script src="src/js/habilidade.js"></script>
+</body>
+</html>

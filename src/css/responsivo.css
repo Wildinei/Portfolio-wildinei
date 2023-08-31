@@ -1,0 +1,197 @@
+@media (max-width: 1070px) {
+    .conteudo .principal {
+        margin-top: 60px;
+        width: 480px;
+    }
+
+    .conteudo .imagem .img {
+        height: 400px;
+        width: 500px;
+    }
+
+    .conteudo .principal h3 {
+        font-size: 20px;
+    }
+    
+    .conteudo .principal .dias {
+        font-size: 40px;
+    }
+
+    .sobre-mim .perfil-logo img {
+        height: 350px;
+    }
+
+    .sobre-mim .biografia {
+        margin: 10px;
+        width: 400px;
+    }
+    
+    .sobre-mim .biografia h1{
+        font-size: 40px;
+    }
+
+    .projetos .card {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 820px){
+    .logo {
+        height: 65px;
+    }
+
+    .navegacao .nav .menu {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    .conteudo .principal {
+        margin-top: 60px;
+        width: 380px;
+    }
+
+    .conteudo .imagem .img {
+        height: 280px;
+        width: 350px;
+    }
+    
+    .conteudo .principal .dias {
+        font-size: 35px;
+    }
+
+    .conteudo .principal div {
+        margin-top: 20px;
+    }
+
+    .sobre-mim {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .sobre-mim .perfil-logo img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 650px){
+   .navegacao .nav .menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 65px;
+        right: 0px;
+        background-color: #87CEFA;
+        flex-direction: column;
+        gap: 45px;
+        z-index: 1;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 30px;
+    }
+
+    .navegacao .nav .menu li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegacao .nav .menu a {
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .modo-escuro .navegacao .nav .menu {
+        background-color: #0b507a;
+    }
+
+    .navegacao .nav .menu .btn-desktop {
+        position: absolute;
+        height: 100%;
+        top: -70px;
+        padding-left: 30px;
+    }
+
+    .navegacao .botao-claro-escuro {
+        display: none;
+    }
+
+    .navegacao .botao-mobile {
+        display: block;
+    }
+
+    .nav.ativo .menu{
+        display: flex;
+    }
+    
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .conteudo .principal {
+        margin-top: 100px;
+    }
+
+    .conteudo .imagem .img {
+        margin-top: 10px;
+    }
+
+    .sobre-mim .biografia {
+        width: 330px;
+    }
+
+    .projetos .card {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .formacao h2 {
+        font-size: 30px;
+    }
+    
+    .formacao .logo-quest img {
+        height: 60px;
+    }
+    
+    .formacao .descricao {
+        width: 330px;
+    }
+    
+    .habilidades h2 {
+        font-size: 30px;
+    }
+    
+    .habilidades div {
+        flex-direction: column;
+        padding: 0 0px;
+        width: 330px;
+    }
+    
+    .habilidades .linguaguem {
+        flex-direction: row;
+    }
+
+    .habilidades .linguaguem img {
+        height: 62px;
+        padding: 5px;
+    }
+    
+    .habilidades .informacao {
+        width: 330px;
+        height: 300px;
+    }
+    
+    .habilidades .informacao h2 {
+        font-size: 30px;
+    }
+
+    .rodape .mail {
+        flex-direction: column;
+    }
+    
+    .rodape .mail p {
+        margin: 10px 30px;
+    }
+}
