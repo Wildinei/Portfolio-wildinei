@@ -12,8 +12,6 @@ const botaoLampada = document.querySelector('.btn-desktop');
 const body = document.querySelector('body');
 const imagemLampada = document.querySelector('.lampada');
 
-console.log(botaoLampada)
-
 botaoLampada.addEventListener('click', () =>{
     const alterarEscuroClaro = body.classList.contains('modo-escuro');
     
