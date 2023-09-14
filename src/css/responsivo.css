@@ -76,7 +76,7 @@
     }
 }
 
-@media (max-width: 650px){
+@media (max-width: 720px){
    .navegacao .nav .menu {
         display: none;
         position: absolute;
