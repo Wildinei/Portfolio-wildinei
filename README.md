@@ -1,4 +1,4 @@
-<h1>📰 <a href="https://wildinei.github.io/Portf-lio-wildinei/"> Portfólio </a></h1>
+<h1>📰 <a href="https://wildinei.github.io/Portfolio-wildinei/"> Portfólio </a></h1>
 
 <p>Esse é a versão desktop.</p>
 
